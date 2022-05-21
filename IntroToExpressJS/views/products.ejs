@@ -1,0 +1,11 @@
+<%- include('./navbar'); %>
+
+<h1>Products</h1>
+<table>
+    <tr><th>Code</th><th>Name</th><th>Price</th></tr>
+    <tr><td><a href="./components/productdetails.ejs">100</a></td><td>Americano</td><td>125</td></tr>
+    <tr><td><a href="productdetails?code=200">200</a></td><td>Brewed Coffee</td><td>100</td></tr>
+    <tr><td><a href="productdetails?code=300">300</a></td><td>Cappuccino</td><td>120</td></tr>
+    <tr><td><a href="productdetails?code=400">400</a></td><td>Espresso</td><td>120</td></tr>
+</table>
+<%- include('./footer'); %>
